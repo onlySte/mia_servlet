@@ -19,6 +19,7 @@
 				<label><strong>Modello :</strong></label>
 				<input type="text" name="modello" />
 			</div>
+			<button type="submit">Invia</button>
 		</form>
 	
 	</body>

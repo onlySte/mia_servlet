@@ -27,7 +27,12 @@ public class AutomobileDao {
 		
 	}
 	
-	
+//1) openSession() → apre la connessione al database
+//2) getMapper(...) → prende il mapper, cioè l'oggetto che conosce le query di Automobile
+//3) mapper.insert(model) → esegue l'insert
+//4) commit() → conferma l'operazione (senza commit i dati non vengono salvati davvero)
+//5)	 rollback() → se qualcosa va storto, annulla l'operazione
+//6)	 close() → nel finally, quindi viene eseguito sempre: chiude la connessione sia che vada bene sia che vada male
 	
 	
 	
